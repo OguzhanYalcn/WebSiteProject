@@ -206,7 +206,7 @@ header h2 {
     width: 9.5cm; /* Görsellerin genişliğini ayarla */
     height: 9.5cm; /* Görsellerin yüksekliğini ayarla */
     margin-right: 30px; /* Görseller ile yazılar arasında boşluk bırakmak için */
-    border-radius: 250px;
+    border-radius: 25%;
   }
   
   .about-item h3 {
@@ -225,7 +225,9 @@ header h2 {
   #about h2 {
     color: #516265;
     font-size: 50px;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
+    margin-top: 72px;
+    margin-bottom: 40px;
   }
 
   #egitim {
@@ -252,7 +254,23 @@ header h2 {
     color: #516265;
     font-size: 50px;
     margin-top: 72px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  #contact h4 {
+    color: #313638;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: baseline;
+  }
+
+  #contact h5 {
+    color: #313638;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   .contact-form {

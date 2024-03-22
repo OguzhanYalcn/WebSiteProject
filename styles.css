@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+  html {
+    scroll-behavior: smooth;
+}
+
   body {
     font-family: 'Montserrat', sans-serif;
   }
@@ -21,14 +25,14 @@
     color: #fff;
 }
 
-header::before {
+  header::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('_c5396954-6f88-4a67-8701-a4d3d0391791.jfif'); /* Arka plan resmi */
+    background-image: url('../WebSiteProject/images/_c5396954-6f88-4a67-8701-a4d3d0391791.jfif'); /* Arka plan resmi */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,18 +40,25 @@ header::before {
     z-index: -1; /* Metnin önünde olacak */
 }
   
+header h2 {
+  font-family: 'Montserrat', sans-serif; /* Başlık için Open Sans fontu */
+  font-size: 20px; /* Başlık font boyutu */
+  font-style: italic; /* İtalik stil */
+  color: #313638; /* Siyah renk */
+}
+
   header h1 {
     font-family: 'Montserrat', sans-serif; /* Başlık için Open Sans fontu */
-    font-size: 72px; /* Başlık font boyutu */
+    font-size: 120px; /* Başlık font boyutu */
     font-style: italic; /* İtalik stil */
-    color: black; /* Siyah renk */
+    color: #313638; /* Siyah renk */
   }
   
   header p {
     font-family: 'Montserrat', sans-serif; /* Açıklama için Roboto fontu */
     font-size: 20px; /* Açıklama font boyutu */
     font-style: italic; /* İtalik stil */
-    color: white; /* Siyah renk */
+    color: #ffffff; /* Siyah renk */
   }
   
   nav {
@@ -71,17 +82,17 @@ header::before {
     content: "|"; /* Pseudo-element içeriği olarak çizgiyi belirtiyoruz */
     margin-left: 50px; /* Çizgi ile metin arasında bir boşluk bırakıyoruz */
     margin-right: 50px; /* Çizgi ile metin arasında bir boşluk bırakıyoruz */
-    color: #ffffff; /* Çizgi rengi */
+    color: #c9c6b3; /* Çizgi rengi */
   }
     
   nav ul li a {
-    color: #fff;
+    color: #c9c6b3;
     text-decoration: none;
   }
   
   main {
     padding: 50px 0;
-    background-color: #d7d2c2; /* Arka plan rengi */
+    background-color: #c9c6b3; /* Arka plan rengi */
   }
   
   section {
@@ -94,6 +105,13 @@ header::before {
     text-align: center;
     padding: 20px 0;
   }
+
+  span:not(:last-child)::after {
+    content: "|"; /* Pseudo-element içeriği olarak çizgiyi belirtiyoruz */
+    margin-left: 50px; /* Çizgi ile metin arasında bir boşluk bırakıyoruz */
+    margin-right: 50px; /* Çizgi ile metin arasında bir boşluk bırakıyoruz */
+    color: #c9c6b3; /* Çizgi rengi */
+  }
   
   .back-to-top {
     color: #fff;
@@ -105,7 +123,8 @@ header::before {
   }
 
   #portfolio h2 {
-    font-size: 45px;
+    color: #516265;
+    font-size: 50px;
   }
   
   .portfolio-item {
@@ -125,38 +144,159 @@ header::before {
   }
   
   .portfolio-item h3 {
-    font-size: 32px; /* Başlık font boyutunu ayarla */
+    
+    font-size: 64px; /* Başlık font boyutunu ayarla */
     margin-bottom: 10px; /* Başlık ile açıklama arasındaki boşluğu ayarla */
   }
   
   .portfolio-item p {
-    font-size: 18px; /* Açıklama yazısı font boyutunu ayarla */
+    font-size: 19px; /* Açıklama yazısı font boyutunu ayarla */
+  }
+
+  .info p span#yil-label,
+  .info p span#tur-label,
+  .info p span#platform-label,
+  .info p span#rol-label {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .info p span#yil-value,
+  .info p span#tur-value,
+  .info p span#platform-value,
+  .info p span#rol-value {
+    font-size: 14px;
   }
   
-  .portfolio-item .description {
-    flex-grow: 1; /* Açıklama yazısının genişliğini ayarla */
-    text-align: justify; /* Açıklama yazısını sağ ve sol kenarlara yasla */
-  }
   .portfolio-item:nth-of-type(1) {
-    background-color: #67b3c6;
+    color: #b04261;
+    background-color: #73b8c7;
     border-radius: 30px;
   }
 
   .portfolio-item:nth-of-type(2) {
+    color: #23343b;
     background-color: #687470;
     border-radius: 30px;
   }
 
   .portfolio-item:nth-of-type(3) {
     /* background-color: #fde18f; */
-    background-color: #93b3e2;
+    color: #bd4233;
+    background-color: #92b5dd;
     border-radius: 30px;
   }
 
   .portfolio-item:nth-of-type(4) {
-    background-color: #477ab0;
+    color: #ccc8b5;
+    background-color: #38547d;
     border-radius: 30px;
   }
+
+  .about-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }  
   
+  .about-item img {
+    width: 9.5cm; /* Görsellerin genişliğini ayarla */
+    height: 9.5cm; /* Görsellerin yüksekliğini ayarla */
+    margin-right: 30px; /* Görseller ile yazılar arasında boşluk bırakmak için */
+    border-radius: 250px;
+  }
+  
+  .about-item h3 {
+    color: #dce8cf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px; /* Başlık font boyutunu ayarla */
+    margin-bottom: 10px; /* Başlık ile açıklama arasındaki boşluğu ayarla */
+  }
+  
+  .about-item p {
+    font-family: 'Montserrat', sans-serif;
+    color: #0a293d;
+    font-size: 20px; /* Açıklama yazısı font boyutunu ayarla */
+  }
+
+  #about h2 {
+    color: #516265;
+    font-size: 50px;
+    margin-bottom: 70px;
+  }
+
+  #egitim {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dce8cf;
+  }
+  
+  #egitim-bilgi {
+    font-size: 16px;
+  }
+
+  #yetenek {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dce8cf;
+  }
+
+  #yetenek-bilgi {
+    font-size: 16px;
+  }
+
+  #contact h2 {
+    color: #516265;
+    font-size: 50px;
+    margin-top: 72px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5); /* Şeffaf arkaplan */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+  
+  .contact-form textarea {
+    resize: none; /* TextArea'nın boyutunun değiştirilmesini önler */
+  }
+  
+  .contact-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Gönder butonunun arka plan rengi */
+    color: #fff; /* Gönder butonunun metin rengi */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Düğme renginin animasyonlu değişimi */
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Gönder butonunun arka plan rengi (hover durumunda) */
+  }
   
   

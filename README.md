@@ -14,16 +14,16 @@ tabanlı bir web sitesinde sergilemeniz beklenmektedir.
 
 **Örnek Araçlar**
 
-• Canva: Görsel içeriklerin tasarlanması için kullanılabilecek bir platform.
+**• Canva:** Görsel içeriklerin tasarlanması için kullanılabilecek bir platform.
 
-• DALL-E: Yaratıcı görsel içeriklerin oluşturulması için kullanılabilecek bir yapay zeka modeli.
+**• DALL-E:** Yaratıcı görsel içeriklerin oluşturulması için kullanılabilecek bir yapay zeka modeli.
 
-• Artbreeder: Fotoğraf ve görsellerin birleştirilmesi ve manipülasyonu ile yeni sanat eserleri üretmek için kullanılabilecek bir 
+**• Artbreeder:** Fotoğraf ve görsellerin birleştirilmesi ve manipülasyonu ile yeni sanat eserleri üretmek için kullanılabilecek bir 
 platform.
 
-• DeepDream: Görsellerin halüsinasyon benzeri manipülasyonları için kullanılabilecek bir yapay zeka aracı.
+**• DeepDream:** Görsellerin halüsinasyon benzeri manipülasyonları için kullanılabilecek bir yapay zeka aracı.
 
-• Bard, CopyWrite, ChatGPT: Metin içeriklerinin üretilmesi için kullanılabilecek yapay zeka tabanlı araçlar.
+**• Bard, CopyWrite, ChatGPT:** Metin içeriklerinin üretilmesi için kullanılabilecek yapay zeka tabanlı araçlar.
 
 **Not:** ***Bu araçların kullanılması zorunlu değildir, fikir edindirmek için verilmiştir. Katılımcılar diledikleri GPT asistan(lar)ını kullanarak bu projeyi gerçekleştirebilir.***
 

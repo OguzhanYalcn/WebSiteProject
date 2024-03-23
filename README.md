@@ -4,55 +4,53 @@
 Yapay Zeka Komutlarıyla Bir Web Sitesi Oluşturma
 
 
-## => Proje İsterleri ##
+## Proje İsterleri ##
 
 
-Portfolio / Galeri Web Sitesi
+**Portfolio / Galeri Web Sitesi**
 
 Bu projede, yapay zeka araçlarını kullanarak ürettiğiniz görsel ve metinleri, yine bu araçlar yardımıyla geliştireceğiniz HTML
 tabanlı bir web sitesinde sergilemeniz beklenmektedir.
 
-Örnek Araçlar
+**Örnek Araçlar**
 
-• Canva: Görsel içeriklerin tasarlanması için kullanılabilecek bir platform.
-• DALL-E: Yaratıcı görsel içeriklerin oluşturulması için kullanılabilecek bir yapay zeka modeli.
-• Artbreeder: Fotoğraf ve görsellerin birleştirilmesi ve manipülasyonu ile yeni sanat eserleri üretmek için kullanılabilecek bir 
+**• Canva:** Görsel içeriklerin tasarlanması için kullanılabilecek bir platform.
+**• DALL-E:** Yaratıcı görsel içeriklerin oluşturulması için kullanılabilecek bir yapay zeka modeli.
+**• Artbreeder:** Fotoğraf ve görsellerin birleştirilmesi ve manipülasyonu ile yeni sanat eserleri üretmek için kullanılabilecek bir 
 platform.
-• DeepDream: Görsellerin halüsinasyon benzeri manipülasyonları için kullanılabilecek bir yapay zeka aracı.
-• Bard, CopyWrite, ChatGPT: Metin içeriklerinin üretilmesi için kullanılabilecek yapay zeka tabanlı araçlar.
+**• DeepDream:** Görsellerin halüsinasyon benzeri manipülasyonları için kullanılabilecek bir yapay zeka aracı.
+**• Bard, CopyWrite, ChatGPT:** Metin içeriklerinin üretilmesi için kullanılabilecek yapay zeka tabanlı araçlar.
 
-Not: Bu araçların kullanılması zorunlu değildir, fikir edindirmek için verilmiştir. Katılımcılar diledikleri GPT asistan(lar)ını
-kullanarak bu projeyi gerçekleştirebilir.
+**Not:** ***Bu araçların kullanılması zorunlu değildir, fikir edindirmek için verilmiştir. Katılımcılar diledikleri GPT asistan(lar)ını kullanarak bu projeyi gerçekleştirebilir.***
 
-1) Web Sitesinin Yapay Zeka ile Oluşturulması: Web sitesinin yapay zeka araçları kullanılarak prompt'larla oluşturulması ve bu 
+1) **Web Sitesinin Yapay Zeka ile Oluşturulması:** Web sitesinin yapay zeka araçları kullanılarak prompt'larla oluşturulması ve bu 
 prompt'ların proje klasöründe yer alması gerekmektedir.
 
-Not: HTML&CSS gerekli ve yeterlidir, Javascript benzeri teknolojileri de opsiyonel olarak kullanabilirsiniz.
+**Not:** ***HTML&CSS gerekli ve yeterlidir, Javascript benzeri teknolojileri de opsiyonel olarak kullanabilirsiniz.***
 
-2) Yapay Zeka ile Oluşturulan İçerikler: Proje içerisinde en az bir görsel ve bir içeriğin yapay zeka araçları ile oluşturulması 
+2) **Yapay Zeka ile Oluşturulan İçerikler:** Proje içerisinde en az bir görsel ve bir içeriğin yapay zeka araçları ile oluşturulması 
 zorunludur. Bu içeriklerin üretiminde kullanılan prompt'ların proje klasöründe yer alması gerekmektedir.
 
-3) Semantik Etiketlerin Kullanılması: Web sitesinin HTML yapısında, semantik etiketlerin(header, main, nav, section, article, 
-aside, footer) kullanılması beklenmektedir.
+3) **Semantik Etiketlerin Kullanılması:** Web sitesinin HTML yapısında, semantik etiketlerin ***(header, main, nav, section, article, aside, footer)*** kullanılması beklenmektedir.
 
-4) Responsive Tasarım(Opsiyonel): Oluşturulan web sitesi, farklı cihaz ve ekran boyutlarına uyumlu olmalıdır. Mobil, tablet ve 
+4) **Responsive Tasarım(Opsiyonel):** Oluşturulan web sitesi, farklı cihaz ve ekran boyutlarına uyumlu olmalıdır. Mobil, tablet ve 
 masaüstü cihazlarda düzgün bir şekilde görüntülenmeli ve kullanıcı deneyimini artırmak için tasarımın her boyutta optimize edilmiş 
 olması gerekmektedir.
 
 
-## => Proje Yapım Aşaması ##
+## Proje Yapım Aşaması ##
 
 Bu kampta yapım için verilen "Portfolyo" veya "Galeri" web sitesi seçenekleri arasından tercihimi "Portfolyo" web sitesinden yana 
 kullandım. Konsept olarak, bir oyun tasarımcısının projelerine ve kendisi hakkında kısa bir bilgilendirme bölümüne yer verdiği web 
-sitesi yapımını belirledim. Gerçek kişi ve kurumları yansıtmaması adına oluşturacağım web sitesi için bir de hayali bir karakter 
-yaratmak istedim. Bunu oluştururken Gemini'ye şu promptu yazdım: 
+sitesi yapımını belirledim. 
+
+Gerçek kişi ve kurumları yansıtmaması adına oluşturacağım web sitesi için bir de hayali bir karakter yaratmak istedim. Bunu oluştururken 
+Gemini'ye şu promptu yazdım: 
 
 "Bir oyun tasarımcısı için portfolyo sitesi oluşturuyorum. Bu sitenin sahibinin bir erkek olmasını istiyorum. Fakat random bir isim 
 soyisim karar veremedim. Bana bir isim soyisim örneği verebilir misin? Eşsiz olursa sevinirim."
 
-
 Ardından sunmuş olduğu seçenekler arasından "Deniz Kayra" kombinini seçtim.
-
 
 HTML, CSS ve JavaScript kodlarından oluşan bu portfolyo web sitesinin yapımı için ChatGPT 3.5 üzerinden verdiğim ilk prompt şu oldu:
 
@@ -77,14 +75,15 @@ Yazdığınız kodların hiçbirine bir açıklama satırı eklemeyin.
 Her şeyi anlıyor musunu? Tüm gereklilikleri anladıysanız lütfen evet, anlamadıysanız lütfen hayır yanıtını verir misiniz?"
 
 
-Bu prompt sonrasında almış olduğum olumlu yanıtın ardından projenin amacını içeren promptu yazdım:
+Bu prompt sonrasında almış olduğum olumlu yanıtın ardından projenin amacını içeren şu promptu yazdım:
 
+**Prompt (ChatGPT 3.5) :**
 "AMACINIZ:
 Web sitesi bir oyun tasarımcısının 4 adet oyun çalışmasını içeren bir portfolyo sitesi olmalıdır. Web sitesinde, "Semantic HTML" 
 tag'lerinin yani "header, nav, main, article, figure, p, section, aside, footer" tag'lerinin yer almasını istiyoruz. Bana bu web 
 sitesini oluşturmamda yardımcı olabilir misin? Eğer cevabınız evetse istenilen özelleştirmeler için size detay vermek istiyoruz."
 
-Gelen Cevap: "Evet, kesinlikle size yardımcı olabilirim. Lütfen istediğiniz özelleştirmeleri detaylı olarak belirtin, böylece web 
+**Gelen Cevap:** "Evet, kesinlikle size yardımcı olabilirim. Lütfen istediğiniz özelleştirmeleri detaylı olarak belirtin, böylece web 
 sitesini istediğiniz şekilde oluşturabilirim."
 
 Bunun üzerine Gemini'ye dönüp bu sefer oyun isimlerine karar verme konusunda aşağıda yer alan promptları kullandım:
@@ -181,9 +180,8 @@ sağ ve sol tarafa siyah bölümler ekleyebilirsin. Görselin orijinal boyutu 10
 
 **Prompt (ChatGPT 3.5) :** 
 "Benzersiz Tasarımlar Arayanların Adresi...
-DENİZ KAYRA yazılarını italic ve arka planla uyumlu bir renkte
-Oyun ve karakter tasarımında uzmanlaşan, deneyimli bir bağımsız oyun tasarımcısıyım...
-Yazısını italic ve rengini beyaz yapalım"
+DENİZ KAYRA yazılarını italic ve arka planla uyumlu bir renkte,
+Oyun ve karakter tasarımında uzmanlaşan, deneyimli bir bağımsız oyun tasarımcısıyım... yazısını italic ve rengini beyaz yapalım"
 
 **Prompt (ChatGPT 3.5) :** "Portfolyo başlığı ve Açıklama yazıları da görsellerin başlangıç ve bitişleri ile aynı hizada olsun"
 
@@ -270,26 +268,18 @@ her oyun için aşağıdaki promptlar yazılmıştır:
 
 1) I have a game called Neo-Tokyo. The description of this game is as follows: In the shadows of neon-lit skyscrapers, yakuza 
 gangs, technologically corrupt corporations and street samurai are engaged in a dark power struggle. In this dystopian megacity, 
-anything is possible to survive.
-
-Can you design me a game visual that fits this description?
+anything is possible to survive. Can you design me a game visual that fits this description?
 
 2) I have a game called Reikon no Shima. The description of this game is as follows: In the shadow of mist-covered mountains and 
 mysterious temples, get ready to embark on an unforgettable adventure. The legends of the Isle of Souls will whisper in your ear, 
-dragging you into the battles of the past and the stories of lost heroes.
-
-Can you design me a game visual that fits this description?
+dragging you into the battles of the past and the stories of lost heroes. Can you design me a game visual that fits this description?
 
 3) I have a game called Start of Chaos. The description of this game is as follows: Are you ready to get lost in the skill dance 
 of characters with different abilities, to experience the euphoria of war where strategy and reflexes come together? Step into a 
-chaotic universe where every corner whispers mystery and excitement.
-
-Can you design me a game visual that fits this description?
+chaotic universe where every corner whispers mystery and excitement. Can you design me a game visual that fits this description?
 
 4) I have a game called Master League. The description of this game is as follows: Are you ready to step through a door to the 
-infinity of space and draw your own destiny among the stars? Master League invites you to the mysterious and exciting world of space.
-
-Can you design me a game visual that fits this description? (with spaceships)
+infinity of space and draw your own destiny among the stars? Master League invites you to the mysterious and exciting world of space. Can you design me a game visual that fits this description? (with spaceships)
 
 
 Sitenin başlık kısmında kullanılan arka plan görseli yine "Microsoft Copilot" isimli yapay zeka aracının "Designer" bölümü 
@@ -301,7 +291,7 @@ Hakkımda kısmında kullanılan logo tasarımı yine "Microsoft Copilot" isimli
 hazırlanmıştır. Şu prompt kullanılmıştır: 
 "Can you create a creative logo with your initials for a professional game designer named "Deniz Kayra"?"
 
-
+## Değerlendirmeler ##
 
 **Global AI Hub'ın "Aygaz - Generative AI Kampı - Prompt Mühendisliğine Giriş" isimli düzenlemiş olduğu bu etkinlik kapsamında hazırlanan bu projede 'Google Gemini', 'ChatGPT 3.5' ve 'Microsoft Copilot' kullanılmıştır. Efektif olması açısından görsellerin promptları İngilizce olarak verilmiştir.**
 
